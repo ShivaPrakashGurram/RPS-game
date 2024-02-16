@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background: border-box;
+}
+#heading{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(38, 37, 37);
+    color: white;
+    font-size: 30px;
+
+}
+#options{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.symbol{
+    height: 150px;
+    width: 150px;
+    color: black;
+    border: 5px solid white;
+    border-radius: 50%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+#rock{
+    background-color: rgb(96, 95, 95);
+}
+#paper{
+    background-color: rgb(225, 216, 216);
+}
+#scissors{
+    background-color: rgb(11, 235, 239);
+}
+.countSection{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.countBox{
+    height: 80px;
+    width: 100px;
+}
+.count{
+    height: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+#you-title{
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+
+}
+#bot-title{
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.resultSection{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resultBox{
+    height: 40px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.submitSection{
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(248, 171, 6);
+    border-radius: 10px;
+    border: 5px solid white;
+    font-weight: bold;
+}
+#submit:hover{
+    border: 2px solid black;
+}
+.green{
+    background-color: rgb(8, 129, 8);
+}
+.red{
+    background-color: rgb(206, 57, 57);
+}
+.border{
+    box-shadow: 2px 2px 10px 2px black;
+}

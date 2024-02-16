@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="heading">Rock Paper Scissors</div>
+    <div id="options">
+        <div id="rock" class="symbol" value="rock"><i class="fa-regular fa-hand-back-fist size"></i></div>
+        <div id="paper" class="symbol" value="paper"><i class="fa-regular fa-hand size"></i></div>
+        <div id="scissors" class="symbol" value="scissors"><i class="fa-regular fa-hand-scissors size"></i></div>
+    </div>
+    <div class="countSection">
+        <div id="you" class="countBox">
+            <div id="youCount" class="count">0</div>
+            <div id="you-title">You</div>
+        </div>
+        <div id="bot" class="countBox">
+            <div id="BotCount" class="count">0</div>
+            <div id="bot-title">Bot</div>
+        </div>
+    </div>
+    <div class="resultSection">
+        <p class="resultBox">Pick your move!</p>
+    </div>
+    <div class="submitSection">
+        <button type="submit" id="submit">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
