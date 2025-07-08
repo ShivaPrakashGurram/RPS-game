@@ -5,7 +5,7 @@ let scissors= document.querySelector("#scissors");
 let submit= document.querySelector("button");
 let yourPickValue=null;
 function botPick(){
-    let pick=Math.seal(Math.random()*picks.length);
+    let pick=Math.ceil(Math.random()*picks.length);
     return picks[pick];
 }
 rock.addEventListener("click",()=>{
